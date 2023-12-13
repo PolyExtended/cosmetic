@@ -37,6 +37,8 @@
 
             // Display cosmetic name, rarity, and description
             listItem.innerHTML += ` - <strong>${cosmetic.name}</strong><br>${cosmetic.description}`;
+            listItem.innerHTML += `<br>Type: ${cosmetic.readableType} `;
+            listItem.innerHTML += `<br>Slug: ${cosmetic.slug} `;
 
             // Add price if available
             if (cosmetic.price ) {
