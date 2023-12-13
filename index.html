@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="rarity.css">
-
+    <link rel="stylesheet" href="rarity.css">
     <link rel="stylesheet" href="https://baconspacerp.github.io/bootstrap.min.css">
     <title>Fortnite Cosmetic Search</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
@@ -23,12 +22,20 @@
         <!-- Your cosmetic items will be displayed here -->
     </ul>
 </div>
+
 <script src="fortnite.js"></script>
 
+<script>
+    // Add event listener for Enter key press
+    document.getElementById("searchInput").addEventListener("keyup", function(event) {
+        if (event.key === "Enter") {
+            searchCosmetics();
+        }
+    });
+</script>
+
 <style>
-
-
-
+    /* Your styles go here if needed */
 </style>
 
 </body>
