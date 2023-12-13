@@ -39,7 +39,7 @@
             listItem.innerHTML += ` - <strong>${cosmetic.name}</strong><br>${cosmetic.description}`;
 
             // Add price if available
-            if (cosmetic.price > 0) {
+            if (cosmetic.price ) {
                 const priceIcon = cosmetic.priceIconLink ? `<img src="https://image.fnbr.co/price/icon_vbucks.png" alt="${cosmetic.priceIcon}" height="20px">` : '';
                 listItem.innerHTML += `<br>Price: ${priceIcon}${cosmetic.price} `;
             }
