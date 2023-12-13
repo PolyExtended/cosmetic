@@ -6,16 +6,38 @@
     <link rel="stylesheet" href="rarity.css">
     <link rel="stylesheet" href="https://baconspacerp.github.io/bootstrap.min.css">
     <title>Fortnite Cosmetic Search</title>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <link rel="icon" type="image/x-icon" href="https://i.imgur.com/kHOeihm.png" id="favicon">
+    <meta name="twitter:image" content="https://i.imgur.com/kHOeihm.png" id="twitter-image">
+   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://rebrand.ly/PolyExtended">PolyExtended</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="https://rebrand.ly/PolyExtended">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://rebrand.ly/polylive">PolyLive</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://rebrand.ly/PolyStreamLookup">PolyLookup</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://rebrand.ly/polywyr">Poly - WYR?</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 <div class="container mt-5">
     <h1 class="text-center">Fortnite Cosmetic Search</h1>
 
     <div class="input-group mb-3">
         <input type="text" id="searchInput" class="form-control" placeholder="Search for cosmetics">
-        <button class="btn btn-primary" onclick="searchCosmetics()">Search</button>
+        <div class="input-group-append">
+            <button class="btn btn-primary" onclick="searchCosmetics()">Search</button>
+        </div>
     </div>
 
     <ul id="cosmeticList" class="list-group">
@@ -24,14 +46,9 @@
 </div>
 
 <script src="fortnite.js"></script>
-
+<script src="submit.js"></script>
 <script>
-    // Add event listener for Enter key press
-    document.getElementById("searchInput").addEventListener("keyup", function(event) {
-        if (event.key === "Enter") {
-            searchCosmetics();
-        }
-    });
+    // Additional scripts or customization if needed
 </script>
 
 <style>
