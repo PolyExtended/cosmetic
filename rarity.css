@@ -1,0 +1,63 @@
+/* Add styles for rarity colors */
+.marvel {
+  color: red;
+  content: 'Marvel Series';
+}
+.star_wars {
+  color: yellow;
+  content: 'Star Wars Series';
+}
+.dc {
+  color: grey;
+  content: 'DC Series';
+}
+.common {
+  color: #ffffff;
+  content: 'Common';
+}
+.uncommon {
+  color: #1eff00;
+  content: 'Uncommon';
+}
+.rare {
+  color: #0070dd;
+  content: 'Rare';
+}
+.epic {
+  color: #a335ee;
+  content: 'Epic';
+}
+.legendary {
+  color: #ff8000;
+  content: 'Legendary';
+}
+.mythic {
+  color: #ff0000;
+  content: 'Mythic';
+}
+.icon_series {
+  color: #00ffff;
+  content: 'Icon Series';
+}
+.slurp {
+  color: #00ffff;
+  content: 'Slurp Series';
+}
+.gaming_legends {
+  color: white;
+  background-color: purple;
+  content: 'Gaming Legends';
+}
+.shadow {
+  color: #ffffff;
+  background-color: #000000;
+  content: 'Shadow Series';
+}
+.lava {
+  color: orange;
+  content: 'Lava Series';
+}
+.frozen {
+  color: cyan;
+  content: 'Frozen Series';
+}
